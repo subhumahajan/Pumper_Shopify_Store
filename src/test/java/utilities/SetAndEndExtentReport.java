@@ -21,8 +21,8 @@ public class SetAndEndExtentReport extends CapturedScreenshots {
         sparkReporter = new ExtentSparkReporter(".\\reports\\" +reportName);
         
 
-        sparkReporter.config().setDocumentTitle("Pumper Shopify Store Automation Report");
-        sparkReporter.config().setReportName("Pumper Shopify Store Automation Report");
+        sparkReporter.config().setDocumentTitle("Pumper Shopify Store Report");
+        sparkReporter.config().setReportName("Pumper Shopify Store Report");
         sparkReporter.config().setTheme(Theme.DARK);
 
         extentReports = new ExtentReports();
